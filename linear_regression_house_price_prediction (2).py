@@ -15,7 +15,7 @@ import numpy as np
 model = load('linear_regression_model.joblib')
 
 #create a simple user input
-user_input - st.numberinput('Enter house size:', min_value=100,
+user_input = st.numberinput('Enter house size:', min_value=100,
 max_value=10000, step=50)
 
 #Reshape the input for the model
