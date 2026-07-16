@@ -22,6 +22,6 @@ max_value=10000, step=50)
 input_array = np.array([user_input]).reshape(-1,1)
 
 #predict the house price
-if st.button('Predict'):
-    prediction = model.predict(input_array)
-    st.write(f"The predicted house price is {prediction[0]:.2f}")
+if st.button('Predict Price'):
+    predicted_price = model.predict(input_array)
+    st.write(f"The predicted house price is: ${predicted_price[0]:.2f}")
