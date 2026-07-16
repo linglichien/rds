@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import streamlit as st
-from jolib import load
+from joblib import load
 import numpy as np
 
 #load the model
